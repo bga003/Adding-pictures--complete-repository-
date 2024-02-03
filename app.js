@@ -6,6 +6,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const { auth } = require('express-openid-connect');
 
+// docker run -p 3000:3000 -e $Env:AWS_REGION="eu-north-1" $Env:AWS_ACCESS_KEY_ID="ASIAREPL54OD4LRCAZVT" $Env:AWS_SECRET_ACCESS_KEY="k4K0EUJ3/mHD9jlh+eOFO9S02GpTqrTiod+2BK11" $Env:AWS_SESSION_TOKEN="IQoJb3JpZ2luX2VjEKz//////////wEaCXVzLWVhc3QtMiJHMEUCIQCBqr39KYTTiLvaxY+ak03nxLYOpN7vjVZhJrd4twr35wIgdTbXfWmzxcNtAvoBPuS2RMQx/PG/bkdH3mK3yKGxRtAqsAIIdRAAGgwwNzgzNDEwNzE3NTEiDLea56RPMu+JacThKiqNAv/mC1dVkNobwXsxNk8Dn3ZPpRqIyY9W53jgx+ho7J3Rw4wSx52EgcEDg2neCgKd7CuASwP5OoPMzHD1D6WVeOonha87SpeCySZRF+v9eJ60GeRp0pbw9hOQVoH8dpF9+vZ5q+mZCuGna6Wn9giBexGOBMRqgQ3qWTGm/A4f75FIps6yhyl/neNIvr8BanoLp2BXXzxlp4qgwDVxhM1SPXKkzxtd4lge0DfyhI5p+rQma4R9bQqnqaXMq0ju5R04mFmApQqB/LAhp70vwDsCGvBJb3vj2JAFod+nhReU7Q7qlyN48EhP1IBpx9YPUMypWVxNPDbXKO6kJaXt4JcO2xGvthuwK1r/ZVrbYPd5MPbL+K0GOp0BdgUbVM8eW3qef9upHUf4UeNUKPP77b6S93qBuvD5CUMeLqA77/dAN8lgKuv1hcP8//flrjanz/qyDgX6MhrOJbjuasb3iW5Unt/wLXlln81oeatmAXjuS6l0/y1CpYf+pEmTHV/Ofuzt+YFT8t2Txl6L6jSzdoSbmseFGpI65fd3zJBqeQg+TwELVxvKmwnfbDid7fiSGwwIo8LMBQ=="
 var indexRouter = require('./routes/index');
 var picturesRouter = require('./routes/pictures');
 
